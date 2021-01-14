@@ -1,18 +1,20 @@
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
 
-function Project() {
+function Project(props) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Col className="col">
+    <Card className="project">
+      <Card.Img variant="top" src={props.projectImage} />
       <Card.Body>
-        <Card.Title>Project Title </Card.Title>
-        <Card.Text>
-         Something about the project 
-        </Card.Text>
-        <Button variant="primary">Next Project?</Button>
+        <Card.Title>{props.projectName}</Card.Title>
+        <Card.Text>{props.projectDescription}</Card.Text>
+        <a variant="primary" href={props.projectUrl} target="_blank">
+          Launch Site
+        </a>
       </Card.Body>
     </Card>
+    </Col>
   );
 }
 
