@@ -14,42 +14,48 @@ const portfolio = [
     id: 1,
     projectImage: "./Assets/Beercrawlr.png",
     projectName: "BeerCrawlr",
-    projectDescription: "Team based project focusing on front end design and basic API calls",
+    projectDescription:
+      "Team based project focusing on front end design and basic API calls",
     projectUrl: "https://joeybrown-ctrl.github.io/Beercrawlr/",
   },
   {
     id: 2,
     projectName: "Work Day Scheduler",
     projectImage: "./Assets/WorkScheduler.png",
-    projectDescription: "Web app that utilizes local storage to write and rewrite items to a calendar",
+    projectDescription:
+      "Web app that utilizes local storage to write and rewrite items to a calendar",
     projectUrl: "https://chrisfalk88.github.io/work_day_scheduler/",
   },
   {
     id: 3,
     projectName: "Weather Dashboard",
-    projectImage:"./Assets/WeatherDashboard.png",
-    projectDescription: "a weather dashboard that accepts a string and then uses the open weather API to capture the data and AJAX to write the data to the page.",
+    projectImage: "./Assets/WeatherDashboard.png",
+    projectDescription:
+      "a weather dashboard that accepts a string and then uses the open weather API to capture the data and AJAX to write the data to the page.",
     projectUrl: "https://chrisfalk88.github.io/weather_dashboard/",
   },
   {
     id: 4,
     projectName: "Employee Tracking System",
-    projectImage:"./Assets/EmployeeTrack.png",
-    projectDescription: "Project that focuses on React and passing  items through props to rewrite items to the page",
+    projectImage: "./Assets/EmployeeTrack.png",
+    projectDescription:
+      "Project that focuses on React and passing  items through props to rewrite items to the page",
     projectUrl: "https://chrisfalk88.github.io/Employee_directory/",
   },
   {
     id: 5,
     projectName: "Budget Tracker",
-    projectImage:"./Assets/budgettracker.png",
-    projectDescription: "Budget tracker is an app that lets you input transactions and assign them as either depits or credits. it then charts out your remaining spending left in a chart. Budget tracker can also cache inputs when no network is present and then upload the changes once internet connection is restored",
+    projectImage: "./Assets/budgettracker.png",
+    projectDescription:
+      "Budget tracker is an app that lets you input transactions and assign them as either depits or credits. it then charts out your remaining spending left in a chart. Budget tracker can also cache inputs when no network is present and then upload the changes once internet connection is restored",
     projectUrl: "https://obscure-garden-47740.herokuapp.com/",
   },
   {
     id: 6,
     projectName: "Workout Tracker",
-    projectImage:"./Assets/fittness.png",
-    projectDescription: "Workout Tracker is a web based application where you can input your workouts, either cardio or resistance, and track your progress. You can create a workout and continually add to existing workouts as many as youd like or, once a workout is completed, start a new record",
+    projectImage: "./Assets/fittness.png",
+    projectDescription:
+      "Workout Tracker is a web based application where you can input your workouts, either cardio or resistance, and track your progress. You can create a workout and continually add to existing workouts as many as youd like or, once a workout is completed, start a new record",
     projectUrl: "https://dry-oasis-00198.herokuapp.com/",
   },
 ];
@@ -60,9 +66,6 @@ class App extends Component {
         <NavHeader />
         <Container>
           <Route exact path="/">
-            <Jumbo />
-          </Route>
-          <Route exact path="/about">
             <Jumbo />
             <About />
           </Route>
