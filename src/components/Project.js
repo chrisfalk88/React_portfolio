@@ -9,7 +9,7 @@ function Project(props) {
       <Card.Body>
         <Card.Title>{props.projectName}</Card.Title>
         <Card.Text>{props.projectDescription}</Card.Text>
-        <a variant="primary" href={props.projectUrl} target="_blank">
+        <a variant="primary" href={props.projectUrl} target="_blank" rel="noreference">
           Launch Site
         </a>
       </Card.Body>
