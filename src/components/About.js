@@ -5,7 +5,7 @@ function About() {
     return (
 <div>
 
-    <img id="aboutPhoto" src="./Assets/IMG_3889.jpeg" alt="flag">
+    <img id="aboutPhoto" src= {process.env.PUBLIC_URL +"/Assets/IMG_3889.jpeg"} alt="flag">
 </img>
 
 <h1 class="title"> About Me </h1>
