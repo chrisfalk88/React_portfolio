@@ -1,17 +1,16 @@
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
-import Nav from 'react-bootstrap/Nav';
-
+import Nav from "react-bootstrap/Nav";
 
 function NavHeader() {
   return (
     <Navbar bg="primary" variant="dark">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+      <Navbar.Brand>Navbar</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+        <Link to ="/">Home</Link>
+        <Link to ="/portfolio">Portfolio</Link>
       </Nav>
-
     </Navbar>
   );
 }
