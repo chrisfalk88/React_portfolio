@@ -8,7 +8,7 @@ function NavHeader() {
     <Navbar bg="primary" variant="dark">
       <Navbar.Brand>Navbar</Navbar.Brand>
       <Nav className="mr-auto">
-        <Link to ="/">Home</Link>
+        <Link to ="/home">Home</Link>
         <Link to ="/portfolio">Portfolio</Link>
       </Nav>
     </Navbar>
