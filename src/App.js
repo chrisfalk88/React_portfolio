@@ -65,7 +65,7 @@ class App extends Component {
       <Router>
         <NavHeader />
         <Container>
-          <Route  exact path="/home">
+          <Route  exact path= "/">
             <Jumbo />
             <About />
           </Route>

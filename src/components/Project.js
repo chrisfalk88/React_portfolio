@@ -1,3 +1,4 @@
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 
@@ -9,7 +10,7 @@ function Project(props) {
       <Card.Body>
         <Card.Title>{props.projectName}</Card.Title>
         <Card.Text>{props.projectDescription}</Card.Text>
-        <a variant="primary" href={props.projectUrl} target="_blank" rel="noreference">
+        <a variant="primary" href={props.projectUrl} target="_blank" rel="noreferrer">
           Launch Site
         </a>
       </Card.Body>
