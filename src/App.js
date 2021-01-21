@@ -62,7 +62,7 @@ const portfolio = [
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='/'>
         <NavHeader />
         <Container>
           <Route  exact path= "/">
